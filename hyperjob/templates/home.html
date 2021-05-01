@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post new things</title>
+</head>
+<body>
+<form action="vacancy/new" method="get">{% csrf_token %}
+    <button type="submit">Create Vacancy</button>
+</form>
+<form action="resume/new" method="get">{% csrf_token %}
+    <button type="submit">Create Resume</button>
+</form>
+</body>
+</html>
